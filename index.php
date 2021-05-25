@@ -30,7 +30,7 @@
     <div>
   	<h2> website status </h2>
     <h3>
-    <?php  if(WebCheck($waebsite)){
+    <?php  if(WebCheck($website)){
     echo 'Website working good 👍';      
   }else{
      echo 'Website still no available 🤏'; 
