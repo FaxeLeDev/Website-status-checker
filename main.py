@@ -2,7 +2,7 @@
 import os
 try:
   import requests
-except:
+except ImportError:
   os.system("pip install requests")
 
 website = 'https://your-website.com'
